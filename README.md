@@ -23,4 +23,4 @@
 ## Contacts
 ![4](https://github.com/swifty-hh/lion_project1/assets/106498918/e7739cfa-fbca-4682-8af2-b356c63f6176)
 
--저의 이메일과 깃헙에 접근할 수 있습니다.
+- 저의 이메일과 깃헙에 접근할 수 있습니다.
