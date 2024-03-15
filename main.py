@@ -38,7 +38,7 @@ if selected == "Analysis of AI":
     ''')
 
     # 분석의 의의
-    st.header(':star: 분석의 의의')
+    st.header(':books: 분석의 의의')
     st.write('''
     이 데이터 분석을 통해 우리는 범죄 예방과 대응 전략을 개발할 때 장소와 범죄 유형을 고려해야 함을 알 수 있습니다. 예를 들어, 절도범죄의 높은 발생률을 감안할 때, 공공 장소와 주거지역에서의 보안 강화가 중요합니다. 또한, 특정 장소에서 빈번하게 발생하는 범죄 유형을 파악하여 그에 맞는 예방책을 마련하는 것도 중요합니다.
     ''')
@@ -92,7 +92,7 @@ elif selected == "Contact":
     st.markdown("---")
     hide_pages(["Thank you!"])
 
-    st.markdown("#### 📬 Get In Touch With Me!")
+    st.markdown("#### :e-mail: Get In Touch With Me!")
 
     contact_form = """
     <form action="https://formsubmit.co/hhj5621na@gmail.com" method="POST" enctype="multipart/form-data">
@@ -127,7 +127,9 @@ elif selected == "Contact":
 
     st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
     st.markdown("---")
+    st.markdown("""#### ⭐ If you are inspired please leave a Star ⭐<iframe src="https://ghbtns.com/github-btn.html?user=swifty-hh&repo=lion_project1&type=star&count=true"  width="80" height="20" title="GitHub"></iframe>
+    """, unsafe_allow_html=True)
+    st.markdown("---")
     st.success("""
-    홍한준
-    - 깃헙: https://github.com/swifty-hh
+    ##### :hammer: Made by [홍한준](https://github.com/swifty-hh):wrench:
     """)
