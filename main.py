@@ -113,9 +113,9 @@ elif selected == "Contact":
     def local_css(file_name):
         with open(file_name) as f:
             st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
-
     local_css("style.css")
 
+    # 깃헙 스타 페이지
     st.markdown("---")
     st.markdown("""#### ⭐ If you are inspired please leave a Star ⭐<iframe src="https://ghbtns.com/github-btn.html?user=swifty-hh&repo=lion_project1&type=star&count=true"  width="80" height="20" title="GitHub"></iframe>
     """, unsafe_allow_html=True)
