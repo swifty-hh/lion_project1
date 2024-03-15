@@ -12,6 +12,8 @@
 
 위 차트는 첫 번째 차트와 다르게 한 눈에 자신이 원하는 범죄만 쉽게 볼 수 있는 막대 그래프 표 입니다.
 
-
+## AI의 범죄 데이터 분석 내용
 ![3](https://github.com/swifty-hh/lion_project1/assets/106498918/c6a02f6f-5aa7-4796-9660-c9f9e152e591)
+
+## Contacts
 ![4](https://github.com/swifty-hh/lion_project1/assets/106498918/e7739cfa-fbca-4682-8af2-b356c63f6176)
