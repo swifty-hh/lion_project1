@@ -57,7 +57,8 @@ if selected == "Analysis of AI":
 
     위 제안된 전략들은 범죄 예방 및 대응에 있어서 중요한 역할을 할 수 있으며, 지속적인 모니터링과 평가를 통해 전략의 효과를 검증하고 필요에 따라 조정해야 합니다.
     ''')
-    st.write('사용된 AI: 뤼튼 (https://wrtn.ai/)')
+    st.markdown("---")
+    st.write(':robot_face: 사용된 AI: 뤼튼 (https://wrtn.ai/)')
 elif selected == "Projects":
     # 데이터 정의
     df = pd.read_excel('data.xlsx')
