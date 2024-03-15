@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 from streamlit_option_menu import option_menu
-from st_pages import add_page_title, hide_pages
 plt.rcParams['font.family'] ='Malgun Gothic'
 
 # 사이드바에 위젯 추가
@@ -89,9 +88,8 @@ elif selected == "Projects":
 
     st.write('출처: https://www.data.go.kr/data/3074463/fileData.do')
 elif selected == "Contact":
-    st.write("# THANK YOU!!!")
+    st.write("# :fireworks: THANK YOU!!! :fireworks:")
     st.markdown("---")
-    hide_pages(["Thank you!"])
 
     st.markdown("#### :e-mail: Get In Touch With Me!")
 
@@ -111,14 +109,6 @@ elif selected == "Contact":
     st.markdown(contact_form, unsafe_allow_html=True)
 
 
-
-    hide_streamlit_style = """
-    <style>
-    #MainMenu {visibility: hidden;}
-    footer {visibility: hidden;}
-    </style>
-    """
-
     # Use Local CSS File
     def local_css(file_name):
         with open(file_name) as f:
@@ -126,7 +116,6 @@ elif selected == "Contact":
 
     local_css("style.css")
 
-    st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
     st.markdown("---")
     st.markdown("""#### ⭐ If you are inspired please leave a Star ⭐<iframe src="https://ghbtns.com/github-btn.html?user=swifty-hh&repo=lion_project1&type=star&count=true"  width="80" height="20" title="GitHub"></iframe>
     """, unsafe_allow_html=True)
